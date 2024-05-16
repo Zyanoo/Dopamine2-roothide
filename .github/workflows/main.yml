@@ -1,4 +1,4 @@
-name: "*** build Dopamine2-roothide.tipa ***"
+name: Build and Package
 
 on:
   push:
@@ -6,7 +6,6 @@ on:
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
-
 
 jobs:
   build:
