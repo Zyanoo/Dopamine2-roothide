@@ -1,5 +1,10 @@
 name: "*** build Dopamine2-roothide.tipa ***"
 
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: macos-13
